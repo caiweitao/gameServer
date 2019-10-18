@@ -1,6 +1,6 @@
 package game.core.example.task;
 
-import game.core.task.AbstrackTask;
+import game.core.task.pool.AbstrackTask;
 
 /**
 * @author caiweitao

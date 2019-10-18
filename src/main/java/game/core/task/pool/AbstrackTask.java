@@ -1,4 +1,4 @@
-package game.core.task;
+package game.core.task.pool;
 
 
 public abstract class AbstrackTask implements Runnable, ITask {

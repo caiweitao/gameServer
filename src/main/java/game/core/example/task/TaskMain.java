@@ -1,6 +1,6 @@
 package game.core.example.task;
 
-import game.core.task.GametExecutor;
+import game.core.task.pool.GametExecutor;
 
 /**
 * @author caiweitao
