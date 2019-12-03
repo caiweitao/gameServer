@@ -34,5 +34,9 @@ public class Cat {
 	public void setAge(Integer age) {
 		this.age = age;
 	}
+	@Override
+	public String toString() {
+		return "Cat [id=" + id + ", name=" + name + ", age=" + age + "]";
+	}
     
 }

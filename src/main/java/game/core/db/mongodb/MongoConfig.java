@@ -1,4 +1,7 @@
 package game.core.db.mongodb;
+
+import org.mongodb.morphia.annotations.Entity;
+
 /**
 * @author caiweitao
 * @Date 2019年10月21日
@@ -6,6 +9,7 @@ package game.core.db.mongodb;
 */
 public class MongoConfig {
 
+	private String mapPackage;// 告诉Morphia在哪里找到你的类,被@Entity注释的类
 	private String host;
 	private int port;
 	private String dbName;
@@ -76,6 +80,12 @@ public class MongoConfig {
 	}
 	public void setMaxWaitTime(int maxWaitTime) {
 		this.maxWaitTime = maxWaitTime;
+	}
+	public String getMapPackage() {
+		return mapPackage;
+	}
+	public void setMapPackage(String mapPackage) {
+		this.mapPackage = mapPackage;
 	}
 	
 	
